@@ -146,8 +146,9 @@ public class MainActivity extends AppCompatActivity
         mGoogleSignInClient = GoogleSignIn.getClient(this,
                 new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
 
-        if(!isSignedIn())
+        if (!isSignedIn()) {
             startSignInIntent();
+        }
 
         // check dialog shown:
         if(!isNewFeaturesDialogShowed())
