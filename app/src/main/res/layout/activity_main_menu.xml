@@ -175,7 +175,7 @@
             app:srcCompat="@drawable/ic_share" />
 
     </LinearLayout>
-
+<!--
     <ir.adad.banner.AdadBannerAd
         android:id="@+id/banner_ad_view"
         android:layout_width="350dp"
@@ -190,5 +190,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:token="2e8735d8-6c87-46ac-af9c-2d599c5901de" />
-
+-->
 </androidx.constraintlayout.widget.ConstraintLayout>

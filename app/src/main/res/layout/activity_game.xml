@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
-
+<!--
     <ir.adad.banner.AdadBannerAd
         android:id="@+id/banner_ad_view_game"
         android:layout_width="350dp"
@@ -36,4 +36,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:token="550ba8de-9d85-42d6-9f05-ddbead37e346" />
+-->
 </androidx.constraintlayout.widget.ConstraintLayout>

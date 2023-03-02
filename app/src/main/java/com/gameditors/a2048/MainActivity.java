@@ -37,8 +37,8 @@ import com.google.android.gms.tasks.Task;
 
 import java.util.Arrays;
 
-import ir.adad.ad.AdadAdListener;
-import ir.adad.banner.AdadBannerAd;
+//import ir.adad.ad.AdadAdListener;
+//import ir.adad.banner.AdadBannerAd;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity
 
         if(activeNetwork != null && activeNetwork.isConnectedOrConnecting())
         {
+            /*
             ((AdadBannerAd) findViewById(R.id.banner_ad_view_game)).setAdListener(new AdadAdListener() {
                 @Override
                 public void onLoaded() {
@@ -139,6 +140,7 @@ public class MainActivity extends AppCompatActivity
                 public void onClosed() {
                 }
             });
+            */
         }
         // Create the client used to sign in to Google services.
         mGoogleSignInClient = GoogleSignIn.getClient(this,

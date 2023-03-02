@@ -37,9 +37,9 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
-import ir.adad.ad.AdadAdListener;
-import ir.adad.banner.AdadBannerAd;
-import ir.adad.core.Adad;
+//import ir.adad.ad.AdadAdListener;
+//import ir.adad.banner.AdadBannerAd;
+//import ir.adad.core.Adad;
 
 
 public class MainMenuActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener
@@ -88,6 +88,7 @@ public class MainMenuActivity extends AppCompatActivity implements PopupMenu.OnM
 
         if(activeNetwork != null && activeNetwork.isConnectedOrConnecting())
         {
+            /*
             Adad.initialize("0fb16c39-0c78-408f-985e-917f3a3d6972");
 
             ((AdadBannerAd)findViewById(R.id.banner_ad_view)).setAdListener(new AdadAdListener()
@@ -107,6 +108,7 @@ public class MainMenuActivity extends AppCompatActivity implements PopupMenu.OnM
                 @Override
                 public void onClosed() { }
             });
+            */
         }
 
         // Create the client used to sign in to Google services.
