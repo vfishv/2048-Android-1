@@ -115,8 +115,9 @@ public class MainMenuActivity extends AppCompatActivity implements PopupMenu.OnM
         mGoogleSignInClient = GoogleSignIn.getClient(this,
                 new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
 
-        if(!isSignedIn())
+        if (!isSignedIn()) {
             startSignInIntent();
+        }
     }
 
     @Override
